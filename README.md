@@ -27,4 +27,5 @@ sudo systemctl enable halow_autorole.service
 再起動して、ターミナル、またはSSH接続して wlan0 にアドレスへの割当てがあることを確認して下ださい。
 
 接続可能なMPPが無い場合はMPPで起動します。
+
 既に接続可能なMPPがあれば、MPとして自動で参加できるようになります。
