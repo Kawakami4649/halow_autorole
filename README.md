@@ -30,3 +30,4 @@ sudo systemctl enable halow_autorole.service
 
 既に接続可能なMPPがあれば、MPとして自動で参加できるようになります。
 
+
