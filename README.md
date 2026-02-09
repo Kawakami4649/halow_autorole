@@ -3,9 +3,9 @@
 halow_autorole.tar.gz
 をダウンロードし、/HOME/pi/ディレクトリ下で解凍します。
 
-pi@raspberrypi:~/ $ tar xfvz halow_autorole.tar.gz
-pi@raspberrypi:~/ $ cd halow_autorole
-pi@raspberrypi:~/halow_autorole/$ ./install.sh
+$ tar xfvz halow_autorole_mesh.tar.gz
+$ cd halow_autorole_mesh
+~/halow_autorole_mesh/$ ./install.sh
 [+] Added watchdog entry to rc.local:
     nohup /usr/local/bin/halow_watchdog_loop.sh >/var/log/halow_loop.log 2>&1 &
 Created symlink /etc/systemd/system/multi-user.target.wants/halow_autorole.service → /etc/systemd/system/halow_autorole.service.
@@ -29,3 +29,4 @@ sudo systemctl enable halow_autorole.service
 接続可能なMPPが無い場合はMPPで起動します。
 
 既に接続可能なMPPがあれば、MPとして自動で参加できるようになります。
+
