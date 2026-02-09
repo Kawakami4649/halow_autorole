@@ -1,7 +1,8 @@
 ﻿Raspberry Pi 4B + BC-11AH-A2 （802.11ah HAT）がセットされた構成に対し、電源起動時に、MESH MPP/MPのどちらで起動するかを自動判定起動するためのサービススクリプト集です。
 
+------------------------------------
 メッシュWifiとしたい場合は、
-
+------------------------------------
 halow_autorole_mesh.tar.gz
 
 をダウンロードし、/HOME/pi/ディレクトリ下で解凍します。
@@ -9,9 +10,10 @@ halow_autorole_mesh.tar.gz
 tar xfvz halow_autorole_mesh.tar.gz
 
 cd halow_autorole_mesh
-
+------------------------------------
+------------------------------------
 AP/STAとしたい場合は、
-
+------------------------------------
 halow_autorole_ap_sta.tar.gz
 
 をダウンロードし、/HOME/pi/ディレクトリ下で解凍します。
@@ -19,6 +21,7 @@ halow_autorole_ap_sta.tar.gz
 tar xfvz halow_autorole_ap_sta.tar.gz
 
 cd halow_autorole_ap_sta
+------------------------------------
 
 ./install.sh
 
@@ -61,6 +64,7 @@ sudo systemctl enable halow_autorole.service
 接続可能なMPPが無い場合はMPPで起動します。
 
 既に接続可能なMPPがあれば、MPとして自動で参加できるようになります。
+
 
 
 
